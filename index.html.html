@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 段落标签 -->
+    <p>今日话题<br>你过得还好吗</p>
+    <!-- 画一条线 -->
+    <hr>
+    <em>感谢你曾经来过，不是个过客</em>
+    <strong><em>感谢你曾经来过，就算你是个过客</em></strong>
+    <del>你就是我的唯一</del>
+    <p>青海下雪了</p> 
+    <!-- 图片插入的学习 -->
+    <!-- 这是相对路径 -->
+    <img src="../网页学习/网页学习练习图片/我我我.png" alt="">
+    <!-- 这是绝对路径 -->
+    <img src="D:\常用\老伙计\网页学习\网页学习练习图片\小丑.png" alt="">
+    <!-- 插入网站上的图片的使用绝对路径的学习 -->
+    <img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.TcVpAuU43QQITaSnuOP_iwHaLH?w=120&h=180&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1" alt="">
+    <br>
+    <!-- 超链接的学习-覆盖原来界面 -->
+    <a href="https://space.bilibili.com/1188111006/favlist?fid=3669244106&ftype=create">跳转到b站教学视频</a>
+    <br>
+    <!-- 超链接的学习-重新打开新的界面 -->
+    <a href="https://www.bilibili.com/" target="_blank">b站界面</a>
+    <br>
+    <!-- 音频插入的学习 -->
+    <audio src="../网页学习/黄霄雲-此生不换(live).mp3" loop controls></audio>
+    <br>
+    <!-- 视频插入的学习 -->
+    <video src="../网页学习/34011809609-1-192.mp4" controls loop></video>
+    <!-- 无序列表的学习 -->
+    <ul>
+        <li><a href="https://re.jd.com/search?keyword=%E6%89%8B%E6%9C%BA&ad_od=3&re_dcp=21Sm2D2ZOw&traffic_source=1004&bd_vid=b78d29f9f5a4691c&cu=true&utm_source=haosou-search&utm_medium=cpc&utm_campaign=t_262767352_haosousearch&utm_term=72869223856_0_d36fd19373794afd99bb11b87cb57036" target="_blank">数码产品</a></li>
+        <li><a href="https://re.jd.com/search?keyword=%E5%86%85%E8%A1%A3&ad_od=3&re_dcp=21Sm2D2ZOw&traffic_source=1004&bd_vid=b78d29f9f5a4691c&cu=true&utm_source=haosou-search&utm_medium=cpc&utm_campaign=t_262767352_haosousearch&utm_term=72869223856_0_d36fd19373794afd99bb11b87cb57036">母婴产品</a></li>
+    </ul>
+    <!-- 有序列表的学习 -->
+    <ol>
+        <li>步骤1</li><li>步骤2</li>
+        <li>步骤3</li>
+    </ol>
+    <!--定义列表的学习  -->
+    <dl>
+        <dt>服务中心 申请售后</dt>
+        <dd>申请售后</dd>
+        <dd>售后政策</dd>
+        <dt>线下门店</dt>
+        <dd>小米之家</dd>
+        <dd>服务网点</dd>
+    </dl>
+    <hr>
+    <a href="https://www.fofoys.com/tvseries/55549" target="_blank">人民的名义</a>
+    <hr>
+    <!-- 表格的学习，border后面的数字表示的是表格的种类 -->
+    <table border="3">
+        <tr>
+            <th>姓名</th>
+            <th>语文</th>
+            <th>数学</th>
+            <th>总分</th>
+        </tr>
+        <!-- 合并单元格，两行 -->
+        <tr>
+            <td>张三</td>
+            <td rowspan="2">90</td>
+            <td>100</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>李四</td>
+            <!-- <td>90</td> -->
+            <td>90</td>
+            <td>175</td>
+        </tr>
+        <!-- 合并单元格，合并了两列单元格 -->
+        <tr>
+            <td>王五</td>
+            <td colspan="2">89</td>
+            <!-- <td>89</td> -->
+            <td>178</td>
+        </tr>
+        <tr>
+            <td>总结</td>
+            <td>全市第一</td>
+            <td>全国第一</td>
+            <td>全球第一</td>
+        </tr>
+    </table>
+    <!-- 表单的学习 -->
+    姓名：<input type="text">
+    <!-- 简单的radio没有单选功能，选择之后也不能取消，后续学习中加了代码才能实现 -->
+    性别：男 <input type="radio"> 女<input type="radio">
+    <br>
+    多选框<input type="checkbox">
+</body>
+</html>
